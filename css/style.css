@@ -1,0 +1,23 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color: #F7E1DD;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor{
+    display: flex;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    justify-content: center;
+}
+
+.tamañoP1{
+    font-size: 40px;
+    text-align: center;
+    background: linear-gradient(rgb(179, 17, 11),rgb(126, 216, 201));
+    -webkit-background-clip: text;
+    color: transparent;  
+}
+
