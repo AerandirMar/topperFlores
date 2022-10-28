@@ -6,11 +6,11 @@
 }
 
 body{
-    background-color: #000000;
+    background-color: black;
 }
 
 footer{
-    background-color: #000000;
+    background-color: black;
 }
 
 p{
@@ -151,3 +151,27 @@ button {
     text-align: center;
 }
 /*Hasta acá NavBar con pestañas*/
+
+/*Responsive*/
+.home{
+    display: flex;
+}
+
+.in-flex{
+    flex: 1;
+    min-width: 250px;
+}
+
+.in-flex:first-child{
+    flex: 2;
+    padding: 25px;
+    background-color: rgb(0, 0, 0);
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+.in-flex div{
+    padding: 25px;
+    background-color: rgb(0, 0, 0);
+    margin: 20px;
+}
