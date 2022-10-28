@@ -1,13 +1,39 @@
 *{
     padding: 0%;
     margin: 0%;
-    background-color: #F7E1DD;
+    background-color: black;
     font-family: 'Roboto', sans-serif;
 }
 
-.contenedor{
+body{
+    background-color: #000000;
+}
+
+footer{
+    background-color: #000000;
+}
+
+p{
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+}
+
+ul{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    display: inline;
+}
+
+.inicio{
+    justify-content: center;
+}
+
+.conteneidor{
     display: flex;
-    margin-top: 0%;
+    margin-top: 02%;
     margin-left: 0%;
     margin-right: 0%;
     justify-content: center;
@@ -21,3 +47,107 @@
     color: transparent;  
 }
 
+button {
+    margin-top: 2rem;
+    margin: auto;
+    width: 80rem;
+    padding: 0.8rem;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient (to right, #1c5ae0, #1CB5E0);
+    box-shadow: 20px 0px 60px 5px #1c5ae0c2; 
+    background-color: black;
+    animation: btn-animation 6s infinite;
+    letter-spacing: 0.25em;
+    word-spacing: 0.25em;
+}
+
+@keyframes btn-animation {
+    16.667%,
+    100%{
+        border-image: linear-gradient (to right, #1c5ae0, #1CB5E0) 1;
+        box-shadow: 20px 0px 60px 5px #1c5ae0c2;
+    }
+    
+    50% {
+        border-image: linear-gradient (to right, #5106ff, #ff2819) 1;
+        box-shadow: 20px 0px 60px 5px #ff281991;
+    }
+
+    83.333% {
+        border-image: linear-gradient (to right, #d53369, #daae51) 1;
+        box-shadow: 20px 0px 60px 5px #daaf518e;
+    }
+
+}
+
+.pie-pagina{
+    background-color: black;
+    text-align: end;
+    padding: 2%;
+}
+
+#titulo{
+    display: flexbox;
+}
+
+/*NavBar con pestañas desde acá*/
+.contenedor{
+    width: 1080px;
+    margin: auto;
+    background: black;
+    color: bisque;
+    padding: 20px 15px 0px 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.8);
+}
+
+.contenedor .titulo{
+    font-size: 3.5ex;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#pestanas {
+    float: top;
+    font-size: 3ex;
+    font-weight: bold;
+}
+
+#pestanas ul{
+    margin-left: 40px;    
+}
+
+#pestanas li{
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    margin: 0px 2px -2px -0px;
+    background: black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 10px solid bisque;
+    border-bottom: black;
+    padding: 0px 0px 0px 0px;
+}
+
+#pestanas a:link{
+    text-decoration: none;
+    color: rgb(53, 36, 209);
+}
+
+#contenidopestanas{
+    clear: both;  
+    background: white;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border: 0.5px solid bisque;
+    width: 1000px;
+    text-align: center;
+}
+/*Hasta acá NavBar con pestañas*/
