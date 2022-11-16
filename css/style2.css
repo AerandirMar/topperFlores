@@ -1,0 +1,15 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+#centradoDiapositiva{
+    text-align: center;
+}
+
+#margenes{
+    margin-left: 10%;
+    margin-right: 10%;
+}    
