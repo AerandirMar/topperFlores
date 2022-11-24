@@ -13,3 +13,17 @@
     margin-left: 10%;
     margin-right: 10%;
 }    
+
+.pie-pagina{
+    background-color: black;
+    text-align: end;
+    padding: 2%;
+}
+
+#etapa{
+    font-size: 20px;
+}
+
+#subEtapa{
+    font-size: 18px;
+}

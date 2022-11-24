@@ -33,9 +33,6 @@ ul{
 
 .conteneidor{
     display: flex;
-    margin-top: 02%;
-    margin-left: 0%;
-    margin-right: 0%;
     justify-content: center;
 }
 
@@ -174,4 +171,8 @@ button {
     padding: 25px;
     background-color: rgb(0, 0, 0);
     margin: 20px;
+}
+
+#centrado{
+    justify-content: center;
 }
